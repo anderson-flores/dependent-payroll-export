@@ -1,8 +1,8 @@
 <?php
 
-namespace Convenia\Dominio\PayrollExport\Tests;
+namespace Convenia\DependentPayrollExport\Tests;
 
-use Convenia\Dominio\PayrollExport\PayrollExport;
+use Convenia\DependentPayrollExport\PayrollExport;
 
 /**
  * Class PayrollExportTest.
@@ -44,8 +44,8 @@ class PayrollExportTest extends BaseTest
                     'endDateDependIR' => '15/03/2018',
                     'haveEndDateDependIR' => 1,
                     'numberDeclaBirth' => 22222222222,
-                    'numberRegCert' => 3333333333333333333333333333333333,
-                    'cpf' => 36292756050,
+                    'numberRegCert' => 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
+                    'cpf' => 36292756251,
                     'receiveAlimony' => 4444444,
                     'determineEndReceive' => 5555555,
                     'endDateReceive' => '15/03/2018',
@@ -56,10 +56,8 @@ class PayrollExportTest extends BaseTest
                 ],
             ])
             ->generate();
-//        print_r($fileContents);
-//        die;
-        $this->assertEquals('S',
-//            '111111122222223333333AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA15/03/2018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA444444444415555555166666667777777888888889999999915/03/201815/03/201815/03/2018111115/03/201815/03/2018115/03/2018115/03/20181222222222223333333333333333333333333333333333362927560504444444555555515/03/2018666666615/03/2018777777715/03/2018',
+        $this->assertEquals(
+            '111111122222223333333AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA15/03/2018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA444444444415555555166666667777777888888889999999915/03/201815/03/201815/03/2018111115/03/201815/03/2018115/03/2018115/03/2018122222222222AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA362927562514444444555555515/03/2018666666615/03/2018777777715/03/2018',
             $fileContents
         );
     }

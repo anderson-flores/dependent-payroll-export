@@ -1,6 +1,6 @@
 <?php
 
-namespace Convenia\Dominio\PayrollExport;
+namespace Convenia\DependentPayrollExport;
 
 use Convenia\DependentPayrollExport\Registries\DependentRegistry;
 

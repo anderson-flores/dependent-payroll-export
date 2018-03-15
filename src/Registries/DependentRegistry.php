@@ -3,6 +3,7 @@
 namespace Convenia\DependentPayrollExport\Registries;
 
 use Convenia\PayrollFileReader\Fields\Formats\FieldC;
+use Convenia\PayrollFileReader\Fields\Formats\FieldD;
 use Convenia\PayrollFileReader\Patterns\PatternBase;
 
 /**
@@ -37,7 +38,7 @@ class DependentRegistry extends PatternBase
             'length'       => 60,
         ],
         'birthdayDate' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 82,
             'length'       => 10,
         ],
@@ -92,17 +93,17 @@ class DependentRegistry extends PatternBase
             'length'       => 8,
         ],
         'deliveryDate' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 221,
             'length'       => 10,
         ],
         'freqAttestationExpiration' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 231,
             'length'       => 10,
         ],
         'vaccinePortfolioDate' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 241,
             'length'       => 10,
         ],
@@ -117,12 +118,12 @@ class DependentRegistry extends PatternBase
             'length'       => 1,
         ],
         'notUsedPlanBegin' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 255,
             'length'       => 10,
         ],
         'notUsedPlanEnd' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 265,
             'length'       => 10,
         ],
@@ -132,7 +133,7 @@ class DependentRegistry extends PatternBase
             'length'       => 1,
         ],
         'endDateSalaryDepend' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 276,
             'length'       => 10,
         ],
@@ -142,7 +143,7 @@ class DependentRegistry extends PatternBase
             'length'       => 1,
         ],
         'endDateDependIR' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 287,
             'length'       => 10,
         ],
@@ -177,7 +178,7 @@ class DependentRegistry extends PatternBase
             'length'       => 7,
         ],
         'endDateReceive' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 368,
             'length'       => 10,
         ],
@@ -187,7 +188,7 @@ class DependentRegistry extends PatternBase
             'length'       => 7,
         ],
         'beginCompensation' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 385,
             'length'       => 10,
         ],
@@ -197,7 +198,7 @@ class DependentRegistry extends PatternBase
             'length'       => 7,
         ],
         'endCompensation' => [
-            'format'       => FieldC::class,
+            'format'       => FieldD::class,
             'position'     => 402,
             'length'       => 10,
         ],
