@@ -36,4 +36,3 @@ $payrollExport->dependentEvents($payroll)
 Para saber mais sobre os modelos e formatos que os modelos aceitam acesse: https://trello-attachments.s3.amazonaws.com/5a314d872eaae5d835af3fc8/5a9d7ca361f4755e8fa4a9a9/2cb54652406903b809f79cf11d75ec2a/Empregados_-_Cadastro_Dependentes.pdf
 
 // Para visualizar todos os eventos disponíveis acesse: https://github.com/convenia/dependent-payroll-export/blob/master/src/PayrollExport.php
-// Para visualizar todos os eventos disponíveis acesse: https://github.com/convenia/dependent-payroll-export/blob/master/src/PayrollExport.php
