@@ -3,7 +3,7 @@ Classe para exportar dependentes de folha de sua empresa para o padrão aceito n
 [![Latest Stable Version](https://poser.pugx.org/convenia/dependent-payroll-export/v/stable)](https://packagist.org/packages/convenia/dependent-payroll-export)
 [![Build Status](https://travis-ci.org/convenia/dependent-payroll-export.svg?branch=master)](https://travis-ci.org/convenia/dependent-payroll-export)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c7d43bcb24294fb29151142651eaf1ee)](https://www.codacy.com/app/Convenia/dependent-payroll-export?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=convenia/dominio-payroll-export&amp;utm_campaign=Badge_Grade)
-
+x
 ## Requisitos
 
 * PHP >= 7.1
